@@ -236,8 +236,9 @@ RGSX includes a web interface that launched automatically when using RGSX for re
 | App crashes | Check `/roms/ports/RGSX/logs/RGSX.log` or `/roms/windows/logs/Retrobat_RGSX_log.txt` |
 | Layout change not applied | Restart RGSX after changing layout |
 | Problem downloading some Games ? | Open Pause Menu > Settings > Connection Status. If one or more required sites are red, enable Custom DNS in Settings and reboot. Also check ISP/router protections (especially ASUS web threat blocking). |
+| Have internet access {Pause Menu > Settings > Connection Status) but RGSX is not responding/working as intended? | Option #1: go to rgsx menu and use the reset settings buttons. Option #2: Confirm "source" setting is 'RGSX" in your C:\RetroBat\saves\ports\rgsx\rgsx_settings.json file. Be sure to use notepad or notepad++ (do not use Wordpad). Check the source line, it likely will be 'custom' which needs to be updated as "RGSX" instead.  |
 
-**Need help?** Share logs from `/roms/ports/RGSX/logs/` on [Discord](https://discord.gg/XPK8YG8XYC).
+**Need help?** Share logs from `/roms/ports/RGSX/logs/` on [Discord](https://discord.gg/XPK8YG8XYC). (Note the invite has expired)
 
 ---
 
